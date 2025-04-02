@@ -8,9 +8,11 @@ from airflow.models import Variable
 
 
 # Default arguments for the DAG
+# added owner in args
 default_args = {
     'owner': 'shashidhar'
 }
+
 
 # Define the DAG
 dag = DAG(
